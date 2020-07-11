@@ -14,14 +14,6 @@
     "scripts": ["background.js"]
   },
   "browser_action": {
-<<<<<<< HEAD
     "default_icon": "yoda.png"
-=======
-<<<<<<< HEAD
-    "default_icon": "yoda.png"
-=======
-    "default icon": "yoda.jpg"
->>>>>>> fe3caa5e17ba5a0f6e3a0479b2000496efcf1dbf
->>>>>>> 56dd7fc56d8f7929aa24a61beb83208e17be494b
   }
 }
