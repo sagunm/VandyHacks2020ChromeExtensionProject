@@ -36,4 +36,4 @@ chrome.runtime.onStartup.addListener(function() {
   chrome.notifications.onClicked.addListener(function() {
   launch();
   });
-};)
+});
