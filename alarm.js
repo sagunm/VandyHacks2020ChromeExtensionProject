@@ -26,7 +26,7 @@
      function cancelAlarm() {
        chrome.alarms.clear(alarmName);
      }
-     
+
      function doToggleAlarm() {
        checkAlarm( function(hasAlarm) {
          if (hasAlarm) {
