@@ -16,5 +16,5 @@
   "browser_action": {
     "default_icon": "yoda.png"
   },
-  "permissions":["storage", "alarms"]
+  "permissions":["storage", "alarms", "notifications"]
 }
