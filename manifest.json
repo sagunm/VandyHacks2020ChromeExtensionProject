@@ -15,7 +15,12 @@
   },
 
   "browser_action": {
-    "default_icon": "yoda.png",
+    "default_icon": { "16": "yoda-16.png",
+      "32": "yoda-32.png",
+      "64": "yoda-64.png",
+      "128": "yoda-128.png",
+      "256": "yoda-256.png"
+    },
     "default_popup": "options.html"
   },
   "options_ui": {
