@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head><title>My Test Extension Options</title></head>
-<body>
 
-Time:
-<select id="time">
- <option value="30 mins">30 mins</option>
- <option value="45 mins">45 mins</option>
- <option value="1 hour">1 hour</option>
- <option value="1 1/2 hours">1 1/2 hours</option>
- <option value="2 hours">2 hours</option>
-</select>
+<style>
+.statusdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 
-<label>
-  <input type="checkbox" id="choice">
-  I want to be notified after this time period.
-</label>
+.optionsdiv {
+  display: flow-root;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  text-indent: 23px;
+}
 
+</style>
+
+<body style="background-color:#7FFFD4;">
+<div class="optionsdiv">
+TIME:
+  <select id="time">
+   <option value="30 mins">30 mins</option>
+   <option value="45 mins">45 mins</option>
+   <option value="1 hour">1 hour</option>
+   <option value="1 1/2 hours">1 1/2 hours</option>
+   <option value="2 hours">2 hours</option>
+  </select>
+</div>
+
+  <label>
+    <input type="checkbox" id="choice">
+    I want to be notified after this time period.
+  </label>
+
+<div class="statusdiv">
 <div id="status"></div>
 <button id="save">Save</button>
+</div>
 
 <script src="options.js"></script>
 </body>
