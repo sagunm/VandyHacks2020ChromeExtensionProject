@@ -18,9 +18,9 @@ function save_options() {
 // Restores select box and checkbox state using the preferences
 // stored in chrome.storage.
 function restore_options() {
-  // Use default value time = '2 hours' and chosenTime = true.
+  // Use default value time = '2 hours'i.e., 7200000 milliseconds and chosenTime = true.
   chrome.storage.sync.get({
-    favoriteTime: '2 hours',
+    favoriteTime: 7200000,
     chosenTime: true
   }, function(items) {
     document.getElementById('time').value = items.favoriteTime;
